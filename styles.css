@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: #E5E5E5;
+}
+  
+#MPLlandingSection {
+    height: 100%;
+    width:100%;
+    top:0px;
+    left:0px;
+    background-color: #095475;
+}
+  
+#AboutMPLSection {
+    height: 100%;
+    background-color: #E5E5E5;
+}
+
+.navbarColor{
+    background-color: #095475;
+}
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+.items{
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Epilogue";
+    font-style: normal;
+    line-height: 20.5px;
+}
+
+.siamImage{
+    width: 97px;
+    height: 50px;
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+.menuTray{
+    margin-top:2%;
+    height:3%;
+}
+
+#AboutMENU{
+    padding-left:50%;
+}
+
+.otherMENU{
+    margin-left:40%;
+}
+
+.graVITaslogo{
+    margin-right:4%;
+    margin-top:1%;
+}
+
+:hover a{
+    color: white;
+}
+
+.title{
+    font-size:60px;
+    line-height: 96px;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.date{
+    font-size: 32px;
+    line-height: 24.6px;
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.mpl1{
+    width:80%;
+    min-width: 200px;
+}
+
+.belowNAV{
+    margin-top:100px;
+}
+
+.num{
+    background-color: #FFFFFF;
+    width:53px;
+    font-size:56px;
+    font-family: "Bebas Neue";
+    color:#DEAE00;
+    line-height: 67.2px;
+    padding-left:16px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    padding-right: 16px;
+    height: 79px;
+    border-radius: 9px;
+}
+.countdown{
+    text-align: center;
+    align-items: center;
+    margin-top:70px;
+}
+
+.space{
+    margin-right:35px;
+}
+
+.register{
+    align-items: center;
+    margin-top:15%;
+    margin-left:40%;
+    margin-bottom:25%;
+}
+button{
+    text-align: center;
+    width:167px;
+    height: 46px;
+    background-color: #DFB005;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #000000;
+    font-family: "Epilogue";
+    font-style: normal;
+    line-height: 16px;
+    font-weight: normal;
+    border:none;
+}
+button:focus{
+    outline: none;
+}
+
+.container{
+    margin-top: 10%;
+    margin-left:5%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+.aboutMPL{
+    font-size: 48px;
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-style: normal;
+    color:#075475;
+}
+
+.aboutText{
+    margin-top:5%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Epilogue";
+    line-height: 20px;
+    color:#000000;
+}
+
+.img2{
+    margin-left:20%;
+    margin-top:15%;
+    margin-right:20%;
+}
