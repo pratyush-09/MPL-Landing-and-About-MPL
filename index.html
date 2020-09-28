@@ -1,84 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MPL-Math Premier League</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MPL-Math Premier League</title>
     
-    <!--CSS only (Bootstrap and External Stylesheet) -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" type="text/css">
+  <!--CSS only (Bootstrap and External Stylesheet) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+
+  <!-- External JS File-->
+  <script type="text/javascript" src="script.js"></script>
 
 </head>
 <body>
-    <body>
-
-        <div id="MPLlandingSection">  
-          <nav class="navbar navbar-expand-sm">
-            <img src="Images/siam light 1.png" class="navbar-brand siamImage">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
-              <span><img src="Images/Group 1.svg"></span>
-            </button>
-            <div class="collapse navbar-collapse menuTray" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li id="AboutMENU" class="nav-item">
-                  <a class="items nav-link" href="#AboutMPLSection">About</a>
-                </li>
-                <li class="nav-item otherMENU">
-                  <a class="items nav-link" href="#">Schedule</a>
-                </li>
-                <li class="nav-item otherMENU">
-                  <a class="items nav-link" href="#">FAQ</a>
-                </li>
-                <li class="nav-item otherMENU">
-                  <a class="items nav-link" href="#">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-            <img class="graVITaslogo" src="Images/graVITas20 Logo 2.png">
-          </nav>
-
-          <div class="row belowNAV" style="width:100%;">
-            <div class="col-lg-3 col-md-3 col-sm-3">
-              <img class="mpl1" src="Images/Vector.png">
-            </div>
-            <div class="col-lg-7 col-md-6 col-sm-9">
-              <h1 class="title">MATH PREMIER LEAGUE</h1>
-              <p class="date">2nd & 3rd October 2020</p>
-              <div class="countdown">
-                <span class="num" id="days1">3</span>
-                <span class="num space" id="days2">0</span>
-                <span class="num" id="hours1">3</span>
-                <span class="num space" id="hours2">0</span>
-                <span class="num" id="minutes1">3</span>
-                <span class="num space" id="minutes2">0</span>
-                <span class="num" id="seconds1">3</span>
-                <span class="num" id="seconds2">0</span>
-              </div>
-              <div class="register">
-                <button href="#">
-                  Register Now
-                </button>
-              </div>
-            </div>
-          </div>
+  <div id="MPLlandingSection">
+    <nav class="navbar navbar-expand-lg">
+      <img src="Images/siam light.png" class="navbar-brand siamImage">
+      <img id="dis2" class="nav-item graVITaslogo m-auto" src="Images/graVITas20 Logo 2.png">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img src="Images/Group 1.svg"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item items">
+            <a class="nav-link itemColor" href="#AboutMPLSection">About</a>
+          </li>
+          <li class="nav-item items">
+            <a class="nav-link itemColor" href="#">Schedule</a>
+          </li>
+          <li class="nav-item items">
+            <a class="nav-link itemColor">FAQ</a>
+          </li>
+          <li class="nav-item items">
+            <a class="nav-link itemColor" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+        <img id="dis1" class="nav-item graVITaslogo" src="Images/graVITas20 Logo.png">
+    </nav>
+    <div class="belowNAV">
+      <div class="container cont1">
+        <img class="mpl1" src="Images/Layer 2.png">
+        
+        <h1 class="title">MATH PREMIER LEAGUE</h1>
+        <p class="date">2nd & 3rd October 2020</p>
+        <div id="clock" class="countdown">
+          <span class="num" id="days1"></span>
+          <span class="num space" id="days2">0</span>
+          <span class="num" id="hours1"></span>
+          <span class="num space" id="hours2">0</span>
+          <span class="num" id="minutes1"></span>
+          <span class="num space" id="minutes2">0</span>
+          <span class="num" id="seconds1"></span>
+          <span class="num" id="seconds2">0</span>
         </div>
-
-        <div id="AboutMPLSection">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 col-sm-12">
-                  <h1 class="aboutMPL">About MPL</h1>
-                  <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quam omnis doloremque dolores alias ducimus in eum nemo deserunt molestiae et, ullam dolorum, corporis cupiditate cum facere cumque. Ducimus, deserunt?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum dignissimos id ut sunt deleniti maxime modi ullam sit magni facilis? Aliquam error ipsam delectus sit quia saepe voluptates repellendus animi.</p>
-                  <p class="aboutText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, porro molestias. Iusto commodi ipsum nam deleniti ratione earum sunt recusandae praesentium accusamus, est dicta exercitationem quam, maxime aut, asperiores eaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam id facilis incidunt quod quas consequuntur assumenda dicta doloribus animi nesciunt corporis molestias nostrum veniam tempora sint velit delectus, eius non?</p>
-                  <p class="aboutText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, ea, perferendis id odit quod commodi ex hic sed praesentium quo molestiae ipsum veritatis blanditiis eius fuga iusto minus minima quae!</p>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                  <img class="img2" src="Images/Vector Smart Object1.png">
-                </div>
-              </div>
-            </div>
+        <div class="DHMS">
+          <span id="dayst" class="num1">Days</span>
+          <span id="hourst" class="num1">Hours</span>
+          <span id="minutest" class="num1">Minutes</span>
+          <span id="secondst" class="num1">Seconds</span>
         </div>
+        <div class="DHMS"><h1 id="start"></h1></div>
+        <div class="register">
+          <button href="#">
+            Register Now
+          </button>
+        </div>
+      </div>
+      <img class="mpl2 mr-0" src="Images/run 1.png">
+    </div>
+  </div>
+  </div>
+
+  <div id="AboutMPLSection">
+    <div class="container">
+      <div class="row">
+        <div style="width: 66%;">
+          <h1 class="aboutMPL">About MPL</h1>
+          <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quam omnis doloremque dolores alias ducimus in eum nemo deserunt molestiae et, ullam dolorum, corporis cupiditate cum facere cumque. Ducimus, deserunt?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum dignissimos id ut sunt deleniti maxime modi ullam sit magni facilis? Aliquam error ipsam delectus sit quia saepe voluptates repellendus animi.</p>
+          <p class="aboutText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, porro molestias. Iusto commodi ipsum nam deleniti ratione earum sunt recusandae praesentium accusamus, est dicta exercitationem quam, maxime aut, asperiores eaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam id facilis incidunt quod quas consequuntur assumenda dicta doloribus animi nesciunt corporis molestias nostrum veniam tempora sint velit delectus, eius non?</p>
+          <p class="aboutText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, ea, perferendis id odit quod commodi ex hic sed praesentium quo molestiae ipsum veritatis blanditiis eius fuga iusto minus minima quae!</p>
+        </div>
+        <div class="img2" style="width: 34%;">
+          <img src="Images/AboutGraphic.png">
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- JS, Popper.js, and jQuery(Bootstrap) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

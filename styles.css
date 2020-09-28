@@ -19,6 +19,12 @@ body{
     background-color: #E5E5E5;
 }
 
+.cont1{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    padding: 0px 0px !important;
+}
+
 .navbarColor{
     background-color: #095475;
 }
@@ -26,42 +32,32 @@ body{
     background-color: white;
 }
 
-.items{
-    color:white;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Epilogue";
-    font-style: normal;
-    line-height: 20.5px;
-}
-
 .siamImage{
-    width: 97px;
-    height: 50px;
+    width:120px;
+    height: 60px;
     margin-top: 1%;
     margin-left: 4%;
 }
 
-.menuTray{
-    margin-top:2%;
-    height:3%;
+.items{
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
-#AboutMENU{
-    padding-left:50%;
+.itemColor{
+    color: #FFFFFF;
+    font-size: 1.5rem;
 }
 
-.otherMENU{
-    margin-left:40%;
+.itemColor:hover{
+    color: #FFFFFF;
 }
 
 .graVITaslogo{
     margin-right:4%;
     margin-top:1%;
-}
-
-:hover a{
-    color: white;
+    width:180px;
+    height: 40px;
 }
 
 .title{
@@ -85,12 +81,15 @@ body{
 }
 
 .mpl1{
-    width:80%;
-    min-width: 200px;
+    left:0;
+}
+
+.mpl2{
+    right: 0;
 }
 
 .belowNAV{
-    margin-top:100px;
+    margin-top:120px;
 }
 
 .num{
@@ -107,6 +106,28 @@ body{
     height: 79px;
     border-radius: 9px;
 }
+
+.num1{
+    width:70px;
+    font-size:24px;
+    font-family: "Bebas Neue";
+    color: #ffffff;
+    padding-left:80px;
+    padding-top:30px;
+    padding-bottom: 9px;
+    padding-right: 10px;
+}
+
+#dayst{
+    padding-left: 95px;
+}
+#hourst{
+    padding-left: 95px;
+}
+#secondst{
+    padding-left: 75px;
+}
+
 .countdown{
     text-align: center;
     align-items: center;
@@ -166,7 +187,32 @@ button:focus{
 }
 
 .img2{
-    margin-left:20%;
-    margin-top:15%;
-    margin-right:20%;
+    text-align: center;
+    align-items: center;
+}
+
+.DHMS{
+    text-align: center;
+    align-items: center;
+}
+
+#dis2{
+    display:none;
+}
+#dis1{
+    display: block;
+}
+
+.start1{
+    display:none;
+}
+
+
+@media only screen and (max-width:990px){
+    #dis1{
+        display:none;
+    }
+    #dis2{
+        display: block;
+    }
 }
